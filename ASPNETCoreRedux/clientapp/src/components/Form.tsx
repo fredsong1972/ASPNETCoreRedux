@@ -12,7 +12,7 @@ interface IState {
 
 interface IFormProps {
     /* The http path that the form will be posted to */
-    getWeather: (country: string, city: string) => any;
+    getWeather: (country: string, city: string) => void;
 }
 
 
